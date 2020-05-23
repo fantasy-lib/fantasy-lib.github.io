@@ -1,0 +1,47 @@
+.wrapper {position: relative; /*задаем для родительского блока относительное позиционирование, чтобы потом абсолютно позиционировать блок внутри него*/}
+.box {
+width: 400px;
+position: absolute; 
+left: 50%;
+margin-left: -200px; /*смещаем блок влево на расстояние, равное половине его ширины*/
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+
+.main{
+
+	background: "black";
+}
+
+
+
+body{
+	max-width: 800px;
+	background: "black";
+}
+
+
+
+
+h1{
+	color: #FFFF00;
+}
+
+
+
+<div class="wh"></div>
+
+<div class="wrapper">
+<div class="box"></div>
+</div>
+<div class="main"</div>
+<div class="container"</div>
